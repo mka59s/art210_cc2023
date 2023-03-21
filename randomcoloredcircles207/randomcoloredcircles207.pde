@@ -10,7 +10,7 @@ boolean[] _isMoon = new boolean [_nPlanets];
 
 void setup()
 {
-  size(1200,800); //screen size
+  size(800,600); //screen size
   for(int i = 0; i < _nPlanets; i = i + 1)
   {
     _speed[i]=random(-1.8,1.8);
